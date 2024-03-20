@@ -1,0 +1,32 @@
+@media(max-width: 1200px){
+    .grid {
+        gap: 20px;
+    }
+
+    .progress__circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .skills__container {
+        row-gap: 32px;
+    }
+
+    .skills__title {
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+@media(max-width: 1024px){
+  .skills__container{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media ( max-width:576px ){
+    .skills__container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
